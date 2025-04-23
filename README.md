@@ -17,8 +17,14 @@ This repository serves as a central location for my system administration projec
 Here's a list of the projects in this repository:
 
 * **[configuration d'une infrastructure DNS fiable et sécurisée](projects/DNS-bind9/README.md)**: Guide pour déployer une solution DNS complète et securiser .
-    * Includes: Script, configuration files, and documentation.
-    * Tools: SSH,DNS-Bind9
+    * Inclut : Script, fichiers de configuration et documentation.
+    * Outils: SSH,DNS-Bind9
+* **[configuration d'une infrastructure DNS fiable et sécurisée](projects/DNS-bind9-DNSSEC/README.md)**: Le DNS traditionnel est vulnérable aux attaques. DNSSEC (DNS Security Extensions) protège vos requêtes DNS grâce à un système de signature cryptographique.
+    * Inclut : Script, fichiers de configuration et documentation.
+    * Outils: SSH,DNS-bind9-DNSSEC
+* **[Gestionnaire Libre de Parc Informatique](projects/GLPI/README.md)**: GLPI est un outil open-source de gestion des actifs informatiques (IT Service Management) qui permet de gérer les tickets, les inventaires matériels/logiciels, et bien plus encore.
+    * Inclut : Script, fichiers de configuration et documentation.
+    * Outils: GLPI,Openssh-server,Apache2,Mariadb-server
 
 
 
@@ -31,10 +37,6 @@ Here's a list of the projects in this repository:
 
 
 
-
-* **[Automated Server Backup Script](projects/backup-script/README.md)**: A script for automating server backups to a remote location.
-    * Includes: Script, configuration files, and documentation.
-    * Languages: Bash, Python (depending on the script).
 * **[System Monitoring Dashboard](projects/monitoring-dashboard/README.md)**: Configuration files and scripts for setting up a system monitoring dashboard using tools like Grafana and Prometheus.
     * Includes: Docker Compose files, configuration files, and setup instructions.
     * Tools: Grafana, Prometheus, Node exporter.
